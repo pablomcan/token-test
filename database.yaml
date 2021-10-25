@@ -1,0 +1,12 @@
+des:
+  des:
+    - database:
+        host: "opshiftpoc-mdb-weu1-dev-001.mariadb.database.azure.com:3306"
+        type: "mariadb"
+      schema: DEMO_DGAC
+      user: pdgaclab
+      deploy:
+        TEST: 1.2.16
+        TABLE_10: 16.0.0
+        TABLE_11: 14.0.0
+        TABLE_14: 14.0.0
